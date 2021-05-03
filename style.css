@@ -1,34 +1,130 @@
 * {
 	margin: 0;
 	padding: 0;
-	text-decoration-style: none;
+	text-decoration: none;
+	font-family: 'Comfortaa', cursive;
 }
 
-body {
-	font-family: sans-serif;
+.header	{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,10,30,0.7),rgba(4,10,30,0.7)),url(images/handofgod.jpeg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
 }
 
+.nav_container {
+	height: 100px;
+	background-color: black;
+	display: flex;
+	padding: 0% 5%;
+	justify-content: center;
+	align-items: center;
+}
 
-.main_header {
-	background-color: rgb(45, 45, 45);
-	height: 80px;
+.nav_container img {
+	width: 175px;
+}
+
+.nav_links {
+	display: flex;
+	align-items: center;
+}
+
+.nav_links ul li {
+	list-style: none;	
+	padding: 0px 100px;
+	display: inline-block;
+	position: relative;
+}
+
+.nav_links ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	transition-property: color;
+	transition-duration: 0s;
+}
+
+.nav_links ul li a:hover {
+	color: silver;
+}	
+
+.slogan {
+	color: white;
+	position: absolute;
+	vertical-align: center;
+	top: 50%; /* some magic centering */
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.slogan h1 {
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+
+.slogan p {
+	font-size: 12px;
+}
+
+.preview {
+	width: 70%;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.preview h1 {
+	font-size: 32px;
+	margin-bottom: 10px;
+}
+
+.footer {
+	width: 100%;
+	height: 25px;
+	background-color: black;
+	text-align: center;
+}
+
+.footer p {
+	color: white;
+	font-size: 12px;
+}
+
+.post_container {
+	width: 100%;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+	margin-top: 50px;
+	background-color: rgb(248, 248, 248);
+	transition-property: background-color;
+	transition-duration: 0.2s;
+}
+
+.post_container:hover {
+	background-color: rgb(232, 232, 232);
+}
+
+.post_container img {
 	width: 100%;
 }
 
-.nav {
+.post_text h2 {
+	margin: 10px;
+	color: black;
 }
 
-.nav ul {
-	display: flex;	
-	list-style-type: none;
+.post_text p {
+	color: black;
 }
 
-.nav li {
-	margin: 30px;
-}
-
-.nav a {
-	color: white;
-	text-decoration: none;
-	text-transform: uppercase;
+.row_container {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
 }
