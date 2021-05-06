@@ -1,3 +1,13 @@
+var idx = 1;
+
+function change_image() {
+	var element = document.getElementById("header");
+	var gradient = "linear-gradient(rgba(0,10,30,0.7),rgba(0,10,30,0.7))"
+	element.style.backgroundImage = `${gradient},url(images/banner${idx}.jpeg)`;
+	idx = (idx == 5 ? 1 : idx + 1);
+	setTimeout("change_image()", 2000);
+}
+
 function query() {
 	var input, filter;
 	input = document.getElementById("search_archive");
@@ -5,6 +15,4 @@ function query() {
 	results = document.getElementById(input);
 }
 
-function change_text() {
-	document.getElementById("search_archive").setAttribute("placeholder", "E.g. World Cup 2018, FC Barcelona");
-}
+window.onload = change_image();

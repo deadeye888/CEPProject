@@ -5,10 +5,9 @@
 	font-family: 'Comfortaa', cursive;
 }
 
-.header	{
+#header	{
 	min-height: 100vh;
 	width: 100%;
-	background-image: linear-gradient(rgba(0,10,30,0.7),rgba(4,10,30,0.7)),url(images/handofgod.jpeg);
 	background-position: center;
 	background-size: cover;
 	position: relative;
@@ -111,12 +110,18 @@
 }
 
 .post_text h2 {
+	font-size: 20px;
 	margin: 10px;
 	color: black;
 }
 
 .post_text p {
 	margin: 10px;
+	color: black;
+}
+
+.post_text span {
+	font-size: 10px;
 	color: black;
 }
 
