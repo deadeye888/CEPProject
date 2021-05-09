@@ -1,0 +1,31 @@
+#search_archive {
+	width: 80%;
+	margin: 20px;
+	border: 1px solid #ddd;
+	outline: none;
+	font-family: 'Noto Serif JP', serif;
+	font-size: 18px;
+	text-align: center;
+}
+
+.container {
+	padding: 20px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 30%);
+	grid-column-gap: 40px;
+}
+
+@media(max-width: 800px) {
+	.container {
+		grid-template-columns: repeat(auto-fit, 100%);
+	}
+}
+
+.post_container img {
+	height: 150px;
+}
+
+.post_container {
+	padding: 10px;
+}
+

@@ -1,0 +1,33 @@
+.banner_container {
+	min-height: 100vh;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.banner {
+	width: 100%;
+	max-height: 100vh;
+	min-height: 100vh;
+	position: absolute;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+}
+
+.slogan {
+	color: white;
+	position: absolute;
+	vertical-align: center;
+	top: 50%; /* some magic centering */
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.slogan h1 {
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+
+.slogan p {
+	font-size: 12px;
+}

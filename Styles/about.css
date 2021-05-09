@@ -1,0 +1,23 @@
+.main_container {
+	padding-top: 50px;
+	text-align: left;
+}
+
+#mission {
+	margin-bottom: 80px;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+p {
+	margin-bottom: 20px;
+	font-size: 18px;	
+}
+
+h2 {
+	text-decoration: underline;
+	padding-bottom: 30px;
+}
+

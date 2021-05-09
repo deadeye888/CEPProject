@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <head>
-		<meta name = "viewport" content = "with=device-width, initial-scale=1.0">
+		<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
 		<title>Contact 90 + 1'</title>
-		<link rel="stylesheet" href="style.css"/>
+		<link rel="stylesheet" href="styles/main.css"/>
+		<link rel="stylesheet" href="styles/contact.css"/>
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<section>
+		<section class = "header">
 			<nav class = "nav_container">
 				<a href = "index.html"> <img src = "images/logo.png"></a>	
 				<div class = "nav_links">
@@ -20,5 +21,21 @@
 				</div>	
 			</nav>
 		</section>
+		<section class = "main_container">
+			<h1> Contact </h1>	
+			<em><p> Your voice counts. As a community-driven, open sourced website, we're always looking for new writers to contribute their ideas.</p></em>	
+			<div class = "form_container">
+				<form class = "contact_form" action = "formhandler.php" method = "post">
+					<input type="text" placeholder="Enter your name" name = "name" required><br>
+					<input type="email" placeholder="Enter your email" name = "email" required><br>
+					<input type="text" placeholder="Enter your subject" name = "subject" required><br>
+					<textarea rows = "20" placeholder="Message" name = "message" required></textarea><br>
+				</form>	
+			</div>	
+			<button type = "submit" class = "submit_btn"> Button </button>	
+		</section>	
 	</body>
+	<section class = "footer">
+		<p> Copyright © 90+1' Inc. All rights reserved.</p>	
+	</section>	
 </html>	

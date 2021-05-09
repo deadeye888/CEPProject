@@ -1,0 +1,16 @@
+* {
+	padding: 0;
+}
+
+.form_container {
+	margin-top: 50px;
+}
+
+.form_container input, .form_container textarea {
+	width: 50%;
+	margin: 10px;
+	outline: none;
+	border-width: 1px;
+	border-style: solid;
+	border-color: silver;
+}
