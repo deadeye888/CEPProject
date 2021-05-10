@@ -1,0 +1,55 @@
+.main_container {
+	width: 70%;
+}
+
+img {
+	width: 100%;
+	max-height: 100vh;
+}
+
+.info_container {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.info_container h1 {
+	font-family: 'Noto Serif JP', serif;
+	font-size: 48px;
+}
+
+.info_container p {
+	font-size: 12px;
+}
+
+.image_container {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 100%;
+}
+
+.info_container h1 {
+	text-decoration: none;
+}
+
+.article_content p {
+	margin: 10px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+.subheading {
+	font-family: 'Noto Serif JP', serif;
+	line-height: 100px;
+}
+
+.twitter_embed {
+	max-width: 390px;
+	dispaly: table;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.article_tags {
+	margin-top: 30px;
+	font-size: 12px;
+}

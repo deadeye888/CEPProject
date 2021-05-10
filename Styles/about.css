@@ -21,3 +21,13 @@ h2 {
 	padding-bottom: 30px;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+	transition-duration: 0s;
+	transition-property: color;
+}
+
+a:hover {
+	color: purple;
+}

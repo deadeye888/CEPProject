@@ -81,7 +81,7 @@
 }
 
 .post_container:hover {
-	background-color: rgb(232, 232, 232);
+	background-color: rgb(222, 222, 222);
 }
 
 .post_container img {
@@ -116,4 +116,19 @@
 .footer p {
 	color: white;
 	font-size: 12px;
+}
+
+.social {
+	margin-top: 30px;
+}
+
+.fab {
+	width: 24px;
+	color: black;
+	transition-duration: 0s;
+	transition-property: color;
+}
+
+.fab:hover {
+	color: red;
 }
